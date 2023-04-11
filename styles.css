@@ -1,0 +1,37 @@
+
+ body{
+   background-color: POWDERBLUE;
+}
+
+img:hover{
+  background-color:gold; 
+  height: 350px;
+}
+
+hr{
+  /*background-color: grey;*/
+  border-style: dotted none none;
+  height: 0px;
+  border-width: 5px;
+  border-color: grey;
+  width:30%;
+}
+
+h1{
+  color: #66bfbf;
+}
+
+h3{
+  color: #68bfbf;
+}
+/* NOTE: use class in tags of html for more specific styling for eg if two images
+are there make two class for each in each of them with different name and type
+.classname{css code} */
+
+/* NOTE: inline>internal>external */
+
+/* NOTE: id in html tag id and class are more specific and hence more priority
+
+diff btw id and class you would use the id to identify elements where there
+is only a single one of them on a particular class can be same
+id is used to uniquely identify  a tag can have more than one class but only one id*/
